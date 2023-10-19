@@ -29,6 +29,8 @@ set ignorecase
 set smartcase
 "makes search act like search in modern browsers
 set incsearch
+"highlight search result
+set hlsearch
 
 "for regular expressions turn magic on
 set magic
@@ -81,3 +83,6 @@ try
     colorscheme slate
 catch
 endtry
+
+"key mappings
+nnoremap <esc> :nohl<cr>
