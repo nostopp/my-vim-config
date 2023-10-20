@@ -86,3 +86,4 @@ endtry
 
 "key mappings
 nnoremap <esc> :nohl<cr>
+vnoremap / y/<c-r>"<cr>
