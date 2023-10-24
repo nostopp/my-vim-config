@@ -1,7 +1,7 @@
 # my-vim-config
 
 ### vimrc
-config for vim
+config for vim,no plugin need
 ### vscodeVim
 config for vscode plugin vim
 ### ideavimrc
