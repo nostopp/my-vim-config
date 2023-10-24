@@ -1,0 +1,43 @@
+{
+    "vim.easymotion": true,
+    "vim.hlsearch": true,
+    "vim.leader": " ",
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before":["<C-c>"],
+            "after":["\"","+","y"]
+        },
+        {
+            "before":["/"],
+            "after":["y","/","<C-r>","\"","<cr>"]
+        },
+        {
+            "before":["s"],
+            "after":["<leader>","<leader>","s"]
+        },
+        {
+            "before":["<leader>"],
+            "after":["<leader>","<leader>","/"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before":["s"],
+            "after":["<leader>","<leader>","s"]
+        },
+        {
+            "before":["<leader>"],
+            "after":["<leader>","<leader>","/"]
+        },
+        {
+            "before":["<esc>"],
+            "commands":[":nohl"]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before":["<C-i>"],
+            "after":["<C-c>","<leader>","<leader>","s"]
+        }
+    ]
+}
