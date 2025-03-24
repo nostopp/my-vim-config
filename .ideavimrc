@@ -10,8 +10,9 @@ set showmode
 set showcmd
 vnoremap <C-c> "+y
 nmap s <Plug>(easymotion-s)
+vmap s <Plug>(easymotion-s)
 nmap <leader> <Plug>(easymotion-sn)
 imap <C-i> <C-c><Plug>(easymotion-s)
 nnoremap <esc> :nohl<cr>
 vnoremap / y/<c-r>"<cr>
-sethandler <C-v> i:ide 
+sethandler <C-v> i:ide
