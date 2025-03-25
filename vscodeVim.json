@@ -13,21 +13,21 @@
         },
         {
             "before":["s"],
-            "after":["<leader>","<leader>","s"]
+            "after":["<leader>","<leader>","s"],
         },
         {
             "before":["<leader>"],
-            "after":["<leader>","<leader>","/"]
+            "after":["<leader>","<leader>","/"],
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before":["s"],
-            "after":["<leader>","<leader>","s"]
+            "after":["<leader>","<leader>","s"],
         },
         {
             "before":["<leader>"],
-            "after":["<leader>","<leader>","/"]
+            "after":["<leader>","<leader>","/"],
         },
         {
             "before":["<esc>"],
